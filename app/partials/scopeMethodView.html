@@ -1,0 +1,25 @@
+<div style="margin-left:10px;">
+	<h4>$watch</h4>
+	<input ng-model='name' type='text'/>
+	<div>change count: {{count1}}</div>
+	<br>
+
+	<div ng-repeat='item in items'>
+	    <input ng-model='item.a'/><span>{{item.a}}</span>
+	</div>
+	<div>change count: {{count2}}</div>
+	<hr>
+
+	<h4>$watchCollection</h4>
+	<button ng-click="itemCollections.push({a:'0'})">添加</button>
+	<button ng-click="itemCollections.pop()">移除</button>
+	<div ng-repeat='item in itemCollections'>
+	    <input ng-model='item.a'/><span>{{item.a}}</span>
+	</div>
+	<div>change count: {{count3}}</div>
+	<hr>
+
+	<h4>$apply</h4>
+	{{message}}
+
+</div>

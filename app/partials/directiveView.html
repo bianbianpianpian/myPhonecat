@@ -1,0 +1,29 @@
+<h4>使用方法(restrict属性)</h4>
+作为标签：
+  <hello-world></hello-world> 
+  <hello:world/>
+
+<br>作为属性：
+  <div hello-world></div> 
+  <div hello:world/>   
+
+<br>作为class：
+<div class='hello-world'></div>
+
+<!--directive:hello-world-->
+
+<h4>嵌入(transclude属性)</h4>
+<hello-world>嵌入吧ddd</hello-world> 
+
+<h4>scope的取值</h4>
+父层：<input type='text' ng-model='color' placeholder='Enter a color' / >
+
+<br>
+<br>
+scope的三种过滤器
+<br>
+1.= <my-user-directive1 user="loggedInUser1"></my-user-directive1>父：<input ng-model='loggedInUser1.name'/>
+<br>
+2.@ <my-user-directive2 fullname="{{loggedInUser2}}"></my-user-directive2>父：<input ng-model='loggedInUser2'/>
+<br>
+3.& <my-add-things fn="add(x, y)"></my-add-things>

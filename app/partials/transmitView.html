@@ -1,0 +1,7 @@
+<div ng-controller="ParentCtrl">                <!--父级-->
+    <div ng-controller="SelfCtrl">              <!--自己-->
+        <a ng-click="click()">click me</a>
+        <div ng-controller="ChildCtrl"></div>   <!--子级-->
+    </div>
+    <div ng-controller="BroCtrl"></div>         <!--平级-->
+</div>

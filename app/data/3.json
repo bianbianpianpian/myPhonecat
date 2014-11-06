@@ -1,0 +1,9 @@
+    [{
+        "age": 5, 
+        "carrier": "Dell", 
+        "id": "dell-venue", 
+        "imageUrl": "img/phones/dell-venue.0.jpg", 
+        "name": "Dell Venue", 
+        "kindId": 3,
+        "snippet": "The Dell Venue; Your Personal Express Lane to Everything"
+    }]
