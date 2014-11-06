@@ -1,4 +1,0 @@
-myPhonecat
-==========
-
-angular example
